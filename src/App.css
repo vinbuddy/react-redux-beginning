@@ -20,3 +20,30 @@ button {
     background-color: #764abc;
     cursor: pointer;
 }
+
+ul {
+    padding-left: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.App li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    accent-color: #764abc;
+}
+
+input[type="checkbox"]:checked ~ span {
+    text-decoration: line-through;
+}
+
+.delete-todo {
+    color: #764abc;
+    cursor: pointer;
+}

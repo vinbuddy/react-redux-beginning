@@ -4,3 +4,17 @@ export const addTodo = (data) => {
         payload: data,
     };
 };
+
+export const deleteTodo = (id) => {
+    return {
+        type: "todo/deleteTodo",
+        payload: id,
+    };
+};
+
+export const completeTodo = (id) => {
+    return {
+        type: "todo/completeTodo",
+        payload: id,
+    };
+};
